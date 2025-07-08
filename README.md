@@ -144,7 +144,7 @@ products = [
     RegProducts("scratch card", 25, 50)
 ]
 cart = Cart()
-customer1 = Customer("Sara", 30000)
+customer1 = Customer("jack", 30000)
 
 
 cart.add(products[0], 6)  # cheese
@@ -154,7 +154,7 @@ cart.add(products[2], 1)  # biscuit
 
 cart.checkout(customer1)
 
-customer2=Customer("hagar",500)
+customer2=Customer("moly",500)
 
 cart.add(products[3], 6)  # milk
 cart.add(products[4], 1)  # bread
